@@ -1,0 +1,10 @@
+192.168.1.10 - - [08/Jul/2026:22:14:01 +0000] "GET /api/users HTTP/1.1" 200 512
+192.168.1.11 - - [08/Jul/2026:22:14:03 +0000] "GET /api/orders HTTP/1.1" 500 89
+192.168.1.10 - - [08/Jul/2026:22:14:05 +0000] "POST /api/login HTTP/1.1" 401 45
+192.168.1.12 - - [08/Jul/2026:22:14:06 +0000] "GET /api/orders HTTP/1.1" 500 89
+192.168.1.13 - - [08/Jul/2026:22:14:09 +0000] "GET /static/logo.png HTTP/1.1" 200 3421
+192.168.1.11 - - [08/Jul/2026:22:14:11 +0000] "GET /api/orders HTTP/1.1" 502 0
+this line is garbage and should not crash the program
+192.168.1.14 - - [08/Jul/2026:22:14:15 +0000] "GET /api/users HTTP/1.1" 404 23
+192.168.1.10 - - [08/Jul/2026:22:14:18 +0000] "GET /api/orders HTTP/1.1" 500 89
+192.168.1.15 - - [08/Jul/2026:22:14:20 +0000] "DELETE /api/session HTTP/1.1" 204 0
