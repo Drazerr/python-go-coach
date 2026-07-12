@@ -1,3 +1,3 @@
-module github.com/Drazerr/python-go-coach/tree/main/go/session-1-log-parser
+module github.com/Drazerr/python-go-coach/session-1-log-parser/go
 
 go 1.26.4
