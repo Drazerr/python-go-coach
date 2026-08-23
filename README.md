@@ -32,11 +32,6 @@ Inside the session, I keep the Python and Go implementations separate so I can s
 │   ├── python/
 │   └── go/
 │
-├── session-02-.../
-│   ├── README.md
-│   ├── python/
-│   └── go/
-│
 └── README.md
 ```
 
