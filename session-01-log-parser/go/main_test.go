@@ -16,7 +16,7 @@ garbage`
 	if got.TotalLines != 3 {
 		t.Errorf("TotalLines = %d, want 3", got.TotalLines)
 	}
-	// your turn: TotalErrors, Malformed, ErrorCounts["500"], ErrorURLs["/a"]
+	
 	if got.TotalErrors != 1 {
 		t.Errorf("TotalErrors = %d, want 1", got.TotalErrors)
 	}
