@@ -24,9 +24,9 @@ garbage`
 		t.Errorf("Malformed = %d, want 1", got.Malformed)
 	}
 	if got.ErrorCounts["500"] != 1 {
-		t.Errorf("Malformed = %d, want 1", got.ErrorCounts["500"])
+		t.Errorf("ErrorCounts[500] = %d, want 1", got.ErrorCounts["500"])
 	}
 	if got.ErrorURLs["/a"] != 1 {
-		t.Errorf("Malformed = %d, want 1", got.ErrorURLs["/a"])
+		t.Errorf("ErrorURLs[/a] = %d, want 1", got.ErrorURLs["/a"])
 	}
 }
